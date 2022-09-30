@@ -30,3 +30,16 @@ div.tableRow p:first-child {
 p.heading {
 	font-weight: bold;
 }
+header.top{
+    background-color: #675c47;
+    margin: 0px 0px 10px 0px;
+    height:           108px;
+}
+footer {
+    background-color: #675c47;
+    color:            #efe5d0;
+    text-align:       center;
+    padding:          15px;
+    margin: 10px 0px 10px 0px;
+    font-size:        90%;
+  }
