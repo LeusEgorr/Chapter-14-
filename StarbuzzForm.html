@@ -9,6 +9,15 @@
     <h1>The Starbuzz Bean Machine</h1>
     <h2>Fill out the form below and click submit to order</h2>
 <form action="http://starbuzzcoffee.com/processorder.php" method="post">
+    <p>
+        Choose coffee:
+        <select name="beans">
+            <option value="Mix">Home Mix</option>
+            <option value="Bolivia">Bolivia</option>
+            <option value="Guatemala">Guatemala</option>
+            <option value="Kenia">Kenia</option>
+        </select>
+    </p>
 <p>Ship to: <br>
 Name: <input type="text" name="name"><br>
 Address: <input type="text" name="address"><br>
